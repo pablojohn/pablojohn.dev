@@ -9,11 +9,11 @@ export const metadata: Metadata = {
     default: "pablojohn.dev",
     template: "%s | pablojohn.dev",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "pablojohn martinez",
   openGraph: {
     title: "pablojohn.dev",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
+      "pablojohn martinez",
     url: "https://pablojohn.dev",
     siteName: "pablojohn.dev",
     images: [

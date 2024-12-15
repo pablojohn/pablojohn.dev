@@ -7,15 +7,15 @@ import { Card } from "../components/card";
 const socials = [
 	{
 		icon: <Twitter size={20} />,
-		href: "https://twitter.com/pablojohn_",
-		label: "Twitter",
-		handle: "@pablojohn_",
+		href: "https://bsky.app/profile/pablojohnm.bsky.social",
+		label: "Bluesky",
+		handle: "@pablojohnm",
 	},
 	{
 		icon: <Mail size={20} />,
-		href: "mailto:dev@pablojohn.dev",
+		href: "mailto:pablojohn.martinez@gmail.com",
 		label: "Email",
-		handle: "dev@pablojohn.dev",
+		handle: "pablojohn.martinez",
 	},
 	{
 		icon: <Github size={20} />,
