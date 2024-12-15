@@ -3,7 +3,6 @@ import { Github, Twitter, Linkedin } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
-import Particles from "../components/particles";
 
 const socials = [
 	{
@@ -59,10 +58,6 @@ export default function Example() {
 					))}
 				</div>
 			</div>
-			<Particles
-				className="absolute inset-0 -z-10"
-				quantity={100}
-			/>
 		</div>
 	);
 }
