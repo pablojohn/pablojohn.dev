@@ -20,9 +20,9 @@ export default async function ProjectsPage() {
     return acc;
   }, {} as Record<string, number>);
 
-  const featured = allProjects.find((project) => project.slug === "azure-platform-enablement")!;
-  const top2 = allProjects.find((project) => project.slug === "pablojohn.dev")!;
-  const top3 = allProjects.find((project) => project.slug === "tell-me-a-story")!;
+  const featured = allProjects.find((project) => project.slug === "pablojohn.dev")!;
+  const top2 = allProjects.find((project) => project.slug === "aks-cost-savings")!;
+  const top3 = allProjects.find((project) => project.slug === "lending-datahub")!;
   const sorted = allProjects
     .filter((p) => p.published)
     .filter(
