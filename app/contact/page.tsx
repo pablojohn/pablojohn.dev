@@ -7,9 +7,9 @@ import { Card } from "../components/card";
 const socials = [
 	{
 		icon: <Twitter size={20} />,
-		href: "https://bsky.app/profile/pablojohnm.bsky.social",
+		href: "https://bsky.app/profile/pablojohn.dev",
 		label: "Bluesky",
-		handle: "@pablojohnm",
+		handle: "@pablojohn.dev",
 	},
 	{
 		icon: <Github size={20} />,
