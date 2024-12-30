@@ -65,13 +65,13 @@ export default function RootLayout({
     <html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
       <head>
         <Analytics />
-        <SpeedInsights />
       </head>
       <body
         className={`bg-black ${process.env.NODE_ENV === "development" ? "debug-screens" : undefined
           }`}
       >
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );
