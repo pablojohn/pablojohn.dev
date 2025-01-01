@@ -20,7 +20,7 @@ export default async function ProjectsPage() {
     return acc;
   }, {} as Record<string, number>);
 
-  const featured = allProjects.find((project) => project.slug === "wow-behave")!;
+  const featured = allProjects.find((project) => project.slug === "dungeon-honor")!;
   const top2 = allProjects.find((project) => project.slug === "wow-my-vault")!;
   const top3 = allProjects.find((project) => project.slug === "pablojohn.dev")!;
   const sorted = allProjects
