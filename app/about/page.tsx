@@ -12,13 +12,13 @@ export default function About() {
       <div className="prose prose-neutral dark:prose-invert space-y-4 text-sm my-16">
         <p>
           I'm a developer based in the Madison, Wisconsin area. I mostly work on backend systems,
-          infrastructure automation, and cloud architecture — the nerdy devops kind of stuff.
+          infrastructure automation, and cloud architecture.
         </p>
 
-        <p>
+        <p> 
           These days, I work at TruStage, an insurance and financial services company. Most of my
           time goes into my day job, but I’m always on the lookout for a fun side project. Lately,
-          that’s mostly meant building World of Warcraft addons and little tools for my friends.
+          that’s mostly meant building World of Warcraft addons and tools for my friends.
         </p>
 
         <p>
@@ -35,11 +35,6 @@ export default function About() {
         <p>
           These days, I lead a platform-focused team that supports eight different product teams
           across the company.
-        </p>
-
-        <p>
-          I’ve also done some public speaking over the years — mostly at our internal meetups, but
-          I’ve spoken at a few conferences too (though it’s been a minute).
         </p>
 
         <p>
