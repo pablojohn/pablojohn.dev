@@ -7,7 +7,8 @@ const navigation = [
 
 export default function Navigation() {
   return (
-    <nav className="my-16 animate-fade-in">
+    // <nav className="my-16 animate-fade-in">
+    <nav className="fixed top-4 text-sm text-zinc-500">
         <ul className="flex items-center justify-center gap-4">
           {navigation.map((item) => (
             <Link
